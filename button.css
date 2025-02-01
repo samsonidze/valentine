@@ -138,3 +138,65 @@ a {
 .button:hover .button__sphere {
   transform: translate(-14px, 50px) scale(1.1);
 }
+
+.button:hover::after {
+  opacity: 1;
+}
+
+/* Button scale */
+.button:hover {
+  transform: scale(1.3);
+}
+
+/* View 3D geometric elements */
+.button:hover p {
+  opacity: 1;
+}
+
+.button:hover .button__cone {
+  transform: translate(-50px, -10px) scale(1.2);
+}
+
+.button:hover .button__torus {
+  transform: translate(7px, -32px) scale(1.1);
+}
+
+.button:hover .button__icosahedron {
+  transform: translate(50px, -10px) scale(1.1);
+}
+
+.button:hover .button__sphere {
+  transform: translate(-14px, 50px) scale(1.1);
+}
+
+/*active */
+
+.button:active::after {
+    opacity: 1;
+  }
+  
+  /* Button scale */
+  .button:active {
+    transform: scale(1.3);
+  }
+  
+  /* View 3D geometric elements */
+  .button:active p {
+    opacity: 1;
+  }
+  
+  .button:active .button__cone {
+    transform: translate(-50px, -10px) scale(1.2);
+  }
+  
+  .button:active .button__torus {
+    transform: translate(7px, -32px) scale(1.1);
+  }
+  
+  .button:active .button__icosahedron {
+    transform: translate(50px, -10px) scale(1.1);
+  }
+  
+  .button:active .button__sphere {
+    transform: translate(-14px, 50px) scale(1.1);
+  }
